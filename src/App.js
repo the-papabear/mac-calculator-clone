@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { useState, useEffect, useRef } from "react";
 import { render } from "react-dom";
 import TitleBar from "./TitleBar";
