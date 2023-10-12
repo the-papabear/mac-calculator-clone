@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 100 "Helvetica";
+}
+
+#root {
+  padding: 2em 1em;
+}
+
+/*Main components styling*/
+.calculator {
+  position: relative;
+  margin: 0 auto;
+  width: 235px;
+  height: 320px;
+
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.calculator__titlebar {
+  position: relative;
+  height: 30px;
+
+  background-color: rgb(91, 82, 83);
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.calculator__screen {
+  height: 50px;
+  background-color: rgb(91, 82, 83);
+}
+
+.calculator__input {
+  position: relative;
+  background-color: rgb(93, 92, 90);
+  font-family: inherit;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+/*Child components styling*/
+.titlebar__container {
+  display: flex;
+  gap: 0.3em;
+
+  padding-top: 0.4em;
+  padding-left: 0.6em;
+}
+
+.screen__numbers {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 0 0.3em;
+  color: white;
+  font-size: 45px;
+}
+
+/* Buttons styling */
+
+.titlebar__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: none;
+}
+
+.titlebar__btn--red {
+  background-color: rgb(255, 89, 82);
+}
+
+.titlebar__btn--yellow {
+  background-color: rgb(230, 193, 40);
+}
+
+.titlebar__btn--green {
+  background-color: rgb(83, 194, 43);
+}
+
+/* .btn__message {
+  position: absolute;
+  color: white;
+  padding: 0.1em;
+  font-size: 12px;
+  border: 1px solid black;
+  background-color: rgb(50, 50, 47);
+} */
+
+.input__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 58px;
+  height: 48px;
+  font-size: 25px;
+  color: rgb(241, 241, 239);
+  font-family: inherit;
+}
+
+.input__btn:focus {
+  outline: none;
+}
+
+.input__btn--0 {
+  width: 117px;
+  border: none;
+  border-bottom-left-radius: 0.5em;
+}
+
+.input__btn--equals {
+  border: none;
+  border-bottom-right-radius: 0.5em;
+}
+
+.input__btn--orange {
+  background-color: rgb(255, 159, 10);
+}
+
+.input__btn--orange:active {
+  background-color: rgb(211, 127, 0);
+}
+
+.input__btn--orange:focus {
+  border-top: 1px solid rgb(91, 82, 83);
+  border-bottom: 1px solid rgb(91, 82, 83);
+  border-left: 1px solid rgb(91, 82, 83);
+}
+
+.input__btn--equals:focus {
+  border: none;
+}
+
+.input__btn--numbers {
+  background-color: rgb(133, 131, 130);
+}
+
+.input__btn--numbers:active {
+  background-color: rgb(182, 179, 178);
+}
+
+.input__btn--top {
+  background-color: rgb(111, 106, 105);
+}
+
+.input__btn--top:active {
+  background-color: rgb(133, 131, 130);
+}
