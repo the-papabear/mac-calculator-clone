@@ -16,16 +16,8 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gabriel-r-ursu/ldg-path-react-calculator.git"
-  },
   "author": "Gabriel R. Ursu",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gabriel-r-ursu/ldg-path-react-calculator/issues"
-  },
-  "homepage": "https://github.com/gabriel-r-ursu/ldg-path-react-calculator#readme",
   "devDependencies": {
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.3.0",
