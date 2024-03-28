@@ -1,6 +1,6 @@
 # Mac Calculator Clone
 
-## Check the code in action on this [CodeSandbox Link](https://rkz6yd.csb.app/){:target="_blank"}.
+## Check the code in action on this [CodeSandbox Link](https://rkz6yd.csb.app/).
 
 'Twas the fall of 2021 and a hopeful web developer intern was tasked with creating a Mac calculator clone.
 
