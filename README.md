@@ -6,6 +6,6 @@
 
 The intern huffed and puffed until he understood how to update state, pass props and break the app into smaller pieces. He also made it his mission to make it look as close to the original app as possible through the magic of `CSS`. 
 
-After a week of giving his blood, sweat, and tears (and snot as he had a mad cold at the time) he came up with this very piece of code that gathers dust in this repo.
+After a week of giving his blood, sweat, and tears (and snot as he had a mad cold at the time) he came up with this very piece of code that now gathers dust in this repo.
 
 ---
